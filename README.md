@@ -1,4 +1,3 @@
-## Wait code coming soon
 # BLE-Keyboard-ducky
 ## ESP32 BLE Remote HID 
 

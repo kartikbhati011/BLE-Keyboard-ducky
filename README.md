@@ -60,7 +60,7 @@ __**💻 How to Use**__
 
 1. Pair your ESP32 with your Windows PC via Bluetooth.<br>
    - Once connected successfully, the blue onboard LED on the ESP32 will turn on
-2. On your phone or computer (connected to the same WiFi network), open the IP address shown in the Serial Monitor.<br>
+2. Turn On your phone hotspot esp32 will automatically connected to your mobile hotspot open the IP address shown in the Serial Monitor.<br>
 3. You’ll see a clean web interface:<br>
    - Choose Command Prompt or PowerShell (normal/admin).<br>
    - Type a custom command or use quick buttons (Notepad , Shutdown, Run 3).<br>

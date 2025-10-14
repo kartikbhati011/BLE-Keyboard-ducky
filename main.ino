@@ -3,8 +3,8 @@
 #include <WebServer.h>
 
 //  Credentials
-const char* ssid = "lomdesh";
-const char* password = "0987654321";
+const char* ssid = "WiFi_SSID";
+const char* password = "WiFi_Password";
 const int ledPin = 2;
 
 BleKeyboard bleKeyboard("BLE Keyboard", "ESP32", 100);
@@ -215,4 +215,5 @@ void setup() {
 void loop() {
   server.handleClient();
   digitalWrite(ledPin, bleKeyboard.isConnected() ? HIGH : LOW);
+
 }

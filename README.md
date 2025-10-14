@@ -8,8 +8,8 @@ Everything works through your browser — no extra app needed!
 
 **__🧰 Hardware Requirements__**
 
-1. ESP32 board (any standard dev board).<br>
-2. USB cable to flash the code and power the board.<br>
+- ESP32 board (any standard dev board).<br>
+- USB cable to flash the code and power the board.<br>
 
 **__🛠 Arduino IDE Setup__**
 
@@ -21,7 +21,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 2. Go to Tools → Board → Board Manager<br>
 Search for ESP32 and
 Install version 2.0.15 (recommended)<br>
-## Highly recommended setup for IDE
+## Highly recommended
 Go to tools → Partition scheme → Huge APP
 
 <br>
@@ -35,9 +35,9 @@ Go to tools → Partition scheme → Huge APP
 - Supports Command Prompt and PowerShell — both normal and admin modes<br>
 - Run Custom Commands directly from the webpage <br>
 - Quick-action buttons for:<br>
-- Notepad<br>
-- Shutdown<br>
-- Run upto 3 cmd in one click<br>
+   - Notepad<br>
+   - Shutdown<br>
+   - Run upto 3 commands in one click<br>
 - LED indicator shows Bluetooth connection status<br>
 
 
@@ -45,22 +45,23 @@ Go to tools → Partition scheme → Huge APP
 
 __**⚙️ Installation Guide**__
 
-- Open the provided .ino file in Arduino IDE.<br>
-- Install required libraries if missing:<br>
-- BLEKeyboard [BLEKeyboard library](https://github.com/T-vK/ESP32-BLE-Keyboard)<br>
-- WiFi and WebServer (already included with ESP32 i think if missing then download)<br>
-- WiFi library [WiFi library](https://www.arduinolibraries.info/libraries/esp32-wifi-manager)
-- WebServer library [WebServer library](https://www.arduinolibraries.info/libraries/wi-fi-web-server)
-- Update the WiFi credentials and username in the code:<br>
-- Connect ESP32 via USB and select the correct Port and Board (ESP32 Dev Module).
- Click Upload to flash the code.
-- After upload, open the Serial Monitor → it will show “WiFi connected” and the IP address.
+1. Open the provided .ino file in Arduino IDE.<br>
+2. Install required libraries if missing:<br>
+  - BLEKeyboard [BLEKeyboard library](https://github.com/T-vK/ESP32-BLE-Keyboard)<br>
+  - WiFi and WebServer (comes pre-installed with ESP32)<br>
+  - WiFi library [WiFi library](https://www.arduinolibraries.info/libraries/esp32-wifi-manager)
+  - WebServer library [WebServer library](https://www.arduinolibraries.info/libraries/wi-fi-web-server)
+3. Update your WiFi credentials in the code:<br>
+4. Connect ESP32 via USB and select the correct Port and Board (ESP32 Dev Module).
+5. Click Upload to flash the code.
+6. After upload, open the Serial Monitor → it will show “WiFi connected” and the IP address.
 
 __**💻 How to Use**__
 
-- Connect your ESP32 to your Windows PC via Bluetooth if connected successfully the blue inbuild led of esp32 will automatically turn on.<br>
-- On your phone or computer (same WiFi network), open the IP address shown in Serial Monitor.<br>
-- You’ll see a clean web interface:<br>
-Choose Command Prompt or PowerShell (normal/admin).<br>
-- Type a custom command or use quick buttons (Notepad , Shutdown, Run 3).<br>
-- Commands are sent as keyboard input to your PC through BLE.<br>
+1. Pair your ESP32 with your Windows PC via Bluetooth.<br>
+   - Once connected successfully, the blue onboard LED on the ESP32 will turn on
+2. On your phone or computer (connected to the same WiFi network), open the IP address shown in the Serial Monitor.<br>
+3. You’ll see a clean web interface:<br>
+   - Choose Command Prompt or PowerShell (normal/admin).<br>
+   - Type a custom command or use quick buttons (Notepad , Shutdown, Run 3).<br>
+4. Commands are sent as keyboard input to your PC through BLE.

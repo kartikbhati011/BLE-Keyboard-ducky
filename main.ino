@@ -127,7 +127,7 @@ void handleRun() {
 }
 
 void handleNotepad() {
-  openAndRun("notepad", false, true, "lol"); // Notepad
+  openAndRun("notepad", false, true, "Subscribe To KernelDroid 🙂"); // Notepad
   server.send(200, "text/plain", "Notepad");
 }
 

@@ -48,7 +48,7 @@ __**⚙️ Installation Guide**__
 2. Install required libraries if missing:<br>
   - BLEKeyboard [BLEKeyboard library](https://github.com/T-vK/ESP32-BLE-Keyboard)<br>
   - WiFi and WebServer (comes pre-installed with ESP32)<br>
-  - WiFi library [WiFi library](https://www.arduinolibraries.info/libraries/esp32-wifi-manager)
+  - ESP32 WiFi Manager library [WiFi library](https://www.arduinolibraries.info/libraries/esp32-wifi-manager)
   - WebServer library [WebServer library](https://www.arduinolibraries.info/libraries/wi-fi-web-server)
 3. Update your WiFi credentials in the code:<br>
 4. Connect ESP32 via USB and select the correct Port and Board (ESP32 Dev Module).

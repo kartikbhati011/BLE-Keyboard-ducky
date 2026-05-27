@@ -127,7 +127,7 @@ void handleRun() {
 }
 
 void handleNotepad() {
-  openAndRun("notepad", false, true, "Thanks for using my project"); // Notepad
+  openAndRun("notepad", false, true, "Thanks for using my project I am very happy"); // Notepad
   server.send(200, "text/plain", "Notepad");
 }
 

@@ -20,7 +20,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 2. Go to Tools → Board → Board Manager<br>
 Search for ESP32 and
 Install version 2.0.15 (recommended)<br>
-## Highly recommended
+### Highly recommended
 Go to tools → Partition scheme → Huge APP
 
 <br>
